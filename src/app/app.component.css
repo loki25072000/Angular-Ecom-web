@@ -1,0 +1,47 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Rowdies:wght@700&display=swap');
+
+.nav-item{
+    margin-left: 20px;
+}
+.nav-link{
+    font-size: 20px;
+    color: white;
+font-family: 'Arvo', serif;
+cursor: pointer;
+
+}
+#menu{
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+.navbar{
+    
+    background-color: black;
+    opacity: 0.4;
+    position: sticky;
+    top: 0;
+}
+
+.nav-link:hover, #menu:hover{
+    color: orange;
+  transform: scale(1.2);
+}
+
+@media only screen and (max-width:574px){
+    .nav-item{
+      text-align: center; 
+    }
+    #contact{
+        display: block;
+    }
+
+}
+p{
+    margin: 0;
+}
+label{
+    display: block;
+}

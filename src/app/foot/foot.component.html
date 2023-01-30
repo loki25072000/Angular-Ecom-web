@@ -1,0 +1,19 @@
+<div class="footer">
+    <form action="#" [formGroup]="user">
+    <input type="text" class="form-control" placeholder="Email address" formControlName="user">
+    <span *ngIf="!user.get('user').valid && user.get('user').touched" style="color: red; display: block;">*Enter Your Email</span>
+    <button  class="btn btn-danger">Subscribe</button>
+</form>
+<div class="details">
+<a routerLink="about">About</a>
+<a routerLink="Contact">Contact</a>
+<a routerLink="help">Help</a>
+   
+</div>
+    <div class="socialIcon">
+        <img src="../../assets/images/instagram.png"  alt="insta" height="20px" width="20px">
+        <img src="../../assets/images/facebook.png" alt="facebook" height="20px" width="20px">
+        <img src="../../assets/images/twitter.png" alt="twitter" height="20px" width="20px">
+    </div>
+</div> 
+

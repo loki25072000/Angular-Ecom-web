@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.gallery {
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-left: 8px;
+    opacity: 0.7;
+}
+
+.gallery:hover {
+    opacity: 1;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 0.6s;
+
+}
+
+.likeIcon {
+    font-size: 29px;
+    float: right;
+    right: 10px;
+    cursor: pointer;
+
+}
+.likeColor{
+color: red;
+background-color: red;
+}

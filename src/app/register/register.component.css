@@ -1,0 +1,42 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.form-control.ng-touched.ng-invalid {
+  border: 1px solid red;
+}
+
+#error-message {
+  color: red;
+
+}
+
+input,
+textarea {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+input[type=radio] {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+tbody,
+thead,
+tr,
+td,
+th {
+  border: 1px solid black;
+  text-align: center;
+}
+th,td{
+  padding: 8px;
+}
+
+#edit,
+#delete {
+  cursor: pointer;
+  font-size: 18px;
+}

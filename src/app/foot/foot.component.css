@@ -1,0 +1,50 @@
+.footer{
+    background-color: black;
+    text-align: center;
+    padding-top: 20px;
+    height: 250px;
+    position: relative;
+}
+.form-control{
+    margin-top: 30px;
+    width: 50%;
+    margin: auto;
+   margin-top: 20px;
+}
+.btn{
+   cursor: pointer;
+   margin-top: 10px;
+}
+.socialIcon{
+    right: 5%;
+    position: absolute;
+}
+img{
+    display: block;
+    margin-top: 15px;
+    cursor: pointer;
+}
+img:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.details{
+    float: left;
+    margin-left: 5%;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    letter-spacing: 3px;
+
+
+}
+a:hover{
+    color: orange;
+    text-decoration: 1px solid green;
+    transform: scale(1.2);
+    transition: 0.5s;
+    border-bottom: 1px dashed white;
+}

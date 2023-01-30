@@ -1,0 +1,16 @@
+.body{
+    background: url("../../assets/images/sea.jpg");
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+.carousel-indicators{
+    margin-bottom: -30px;
+}
+.carousel-item{
+    font-size: 20px;
+}
+h1,h3{
+    color: yellow;
+}
